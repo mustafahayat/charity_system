@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-
+    <script src="js/style.js"></script>
         <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
 
 
-  <nav class="navbar navbar-default bg-dark navbar-dark">
+  <nav class="navbar navbar-default bg-dark navbar-dark navbar-fixed-top "  >
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -21,29 +21,256 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#myPage">Charity MIS</a>
+        <a class="navbar-brand" href="#myPage">
+        Charity MIS
+        </a>
+
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">HOME</a></li>
+          <li><a href="index.html">HOME</a></li>
           <li><a href="#services">SERVICES</a></li>
           <li><a href="#portfolio">PORTFOLIO</a></li>
           <li><a href="#">DONATE</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="#contact">CONTACT</a></li>
-          <i class="fas fa-search" style="color: red;"></i>
 
         </ul>
       </div>
     </div>
   </nav>
 
+  <div class="jumbotron text-center" id="myPage">
+    <h1>Charity System</h1>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
 
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item">
+          <img src="images/1.png" alt="1" style="width:100%; max-height:500px">
+        </div>
 
+        <div class="item active">
+          <img src="images/2.jfif" alt="2" style="width:100%; max-height:500px">
+        </div>
 
-    <div class="container">
-      <h1>Welcome to the Charity Management System</h1>
+        <div class="item">
+          <img src="images/3.jpg" alt="3" style="width:100%; max-height:500px">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
     </div>
-    
+  </div>
+<!--    <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">-->
+<!--      &lt;!&ndash; Indicators &ndash;&gt;-->
+<!--      <ol class="carousel-indicators">-->
+<!--        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>-->
+<!--        <li data-target="#myCarousel" data-slide-to="1"></li>-->
+<!--        <li data-target="#myCarousel" data-slide-to="2"></li>-->
+<!--      </ol>-->
+
+<!--      &lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+<!--      <div class="carousel-inner" role="listbox">-->
+<!--        <div class="item active">-->
+<!--          <img src="images/1.jfif" width="100%" style="height: 300px">-->
+<!--&lt;!&ndash;          <h4>"This company is the best. I am so happy with the result!"<br><span>Michael Roe, Vice President, Comment Box</span></h4>&ndash;&gt;-->
+<!--        </div>-->
+<!--        <div class="item">-->
+<!--          <h4>"One word... WOW!!"<br><span>John Doe, Salesman, Rep Inc</span></h4>-->
+<!--        </div>-->
+<!--        <div class="item">-->
+<!--          <h4>"Could I... BE any more happy with this company?"<br><span>Chandler Bing, Actor, FriendsAlot</span></h4>-->
+<!--        </div>-->
+<!--      </div>-->
+
+<!--      &lt;!&ndash; Left and right controls &ndash;&gt;-->
+<!--      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">-->
+<!--        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>-->
+<!--        <span class="sr-only">Previous</span>-->
+<!--      </a>-->
+<!--      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">-->
+<!--        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>-->
+<!--        <span class="sr-only">Next</span>-->
+<!--      </a>-->
+<!--    </div>-->
+  </div>
+
+<!--    <strong>-->
+<!--      Welcome to our system! We are thrilled to have you on board as we work towards making a positive impact in the world. Our system is designed to help you manage your charitable organization more efficiently and effectively, so you can focus on what really matters – making a difference in people's lives. Thank you for joining us in this important mission.-->
+<!--    </strong>-->
+  </div>
+
+  <!-- Container (About Section) -->
+
+  <div id="about" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8">
+        <strong> <h1>Charity Management System</h1></strong>
+        <br>
+        <h4>
+
+          A charity management system is a powerful tool that enables charitable organizations to efficiently and effectively manage their operations. It provides a comprehensive platform to handle various aspects of charity management, including donor management, volunteer management, fundraising management, and event management.
+
+          With a charity management system, organizations can easily track donations, manage relationships with donors and volunteers, and streamline their fundraising efforts. They can also use the system to plan and organize events, such as fundraisers, galas, and charity runs.
+        </h4><br>
+        The system provides a centralized database that allows organizations to access important information in real-time, making it easier to make data-driven decisions. This helps organizations to optimize their resources and increase their impact on the community they serve.
+
+        Overall, a charity management system is an essential tool for any nonprofit organization looking to operate efficiently, effectively, and make a positive impact in the world.
+        <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-signal logo"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid bg-grey">
+    <div class="row">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-globe globe logo slideanim"></span>
+<!--        <span class="fas fa-globe fa-spin fa-5x logo slideanim"></span>-->
+<!--        <i class="fa fa-globe fa-5x logo anim " aria-hidden="true"></i>-->
+
+      </div>
+      <div class="col-sm-8">
+        <h2>Our Values</h2><br>
+        <h4><strong>MISSION:</strong>
+          Our mission is to provide charitable organizations with a powerful and comprehensive management system that helps them efficiently and effectively manage their operations, increase their impact, and make a positive difference in the world.            </h4><br>
+        <p><strong>VISION:</strong>
+          Our vision is to empower charitable organizations to achieve their missions by providing them with the technology and tools they need to succeed. We strive to be the leading provider of charity management systems, enabling organizations to streamline their operations and improve their impact on the communities they serve.
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Container (Services Section) -->
+  <div id="services" class="container-fluid text-center">
+    <h2>SERVICES</h2>
+    <h4>What we offer</h4>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="fas fa-school logo-small"></span>
+        <h4>Education</h4>
+        <p>Empowering minds, transforming futures <br> through quality learning.</p>
+<!--        <p>Providing access to quality education, empowering individuals to reach their full potential and create positive change in society.</p>-->
+      </div>
+      <div class="col-sm-4">
+        <span class="fas fa-heart logo-small"></span>
+        <h4>LOVE</h4>
+        <p>Fostering connections, spreading kindness, <br> and inspiring positive change.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="fas fa-home logo-small"></span>
+        <h4>Building Home</h4>
+        <p>Through Building home, we creating safe, comfortable, <br>and sustainable living spaces..</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="fas fa-star logo-small"></span>
+        <h4>Common Services</h4>
+        <p>Common services to providing essential services for the<br> community's well-being.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="fas fa-child logo-small"></span>
+        <h4>CHILDREN</h4>
+        <p>Children service: Nurturing future generations through <br>education, support, and protection.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="fas fa-hospital logo-small"></span>
+        <h4 style="color:#303030;">Health</h4>
+        <p>Improving lives through compassionate care and innovative treatments.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container (Portfolio Section) -->
+  <div id="portfolio" class="container-fluid text-center bg-grey">
+    <h2>Work</h2><br>
+    <h4>Where do we work, Our Coverage area</h4>
+    <div class="row text-center slideanim">
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img src="https://www.bing.com/th?id=OIP.XZFOPIyimnGQbe4bhzkrWQHaE4&w=157&h=104&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="Paris" style="max-height: 300px; max-width: 400px" >
+          <p><strong>Newyork</strong></p>
+          <p>NewYork, The capital fo the World.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img style="max-height: 300px; max-width: 400px" src="https://th.bing.com/th?id=OIP.WWfgdlFzw0o-nNz1gq0p1gHaFT&w=295&h=211&c=8&rs=1&qlt=90&o=6&dpr=1.3&pid=3.1&rm=2" alt="New York" width="400" height="300">
+          <p><strong>Afghanistan</strong></p>
+          <p>Afghanistan, The heart of each Afghan.</p>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="thumbnail">
+          <img style="max-height: 300px; max-width: 400px" src="data:image/jpeg;base64,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" alt="San Francisco" width="400" height="300">
+          <p><strong>Paris</strong></p>
+          <p>Paris, The groom of the World.</p>
+        </div>
+      </div>
+    </div><br>
+
+
+
+
+  <!-- Container (Contact Section) -->
+  <div id="contact" class="container-fluid bg-grey">
+    <h2 class="text-center">CONTACT</h2>
+    <div class="row">
+      <div class="col-sm-5">
+        <p>Contact us and we'll get back to you within 24 hours.</p>
+        <p><span class="glyphicon glyphicon-map-marker"></span> Kabul, Afghanistan</p>
+        <p><span class="glyphicon glyphicon-phone"></span> +93 77xxxxxxx</p>
+        <p><span class="glyphicon glyphicon-envelope"></span> brishnasafi2023@gmail.com</p>
+      </div>
+      <div class="col-sm-7 slideanim">
+        <div class="row">
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group">
+            <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+          </div>
+        </div>
+        <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+        <div class="row">
+          <div class="col-sm-12 form-group">
+            <button class="btn btn-default pull-right" type="submit">Send</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#myPage" title="To Top"></a>
+
+
+  <footer class="container-fluid text-center">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p>Charity Management System Design and Develop <a href="https://github.com/brikhnasafi">Breshna Safi</a></p>
+  </footer>
+
+
   </body>
 </html>
